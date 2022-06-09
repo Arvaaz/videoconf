@@ -1,5 +1,6 @@
 import React from "react";
 import VideoTile from "./VideoTile";
+import Time from './Time'
 import {
   useHMSStore,
   selectLocalPeer,

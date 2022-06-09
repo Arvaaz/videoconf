@@ -1,4 +1,5 @@
 import React from "react";
+import Time from './Time'
 import {
   useHMSActions,
   useHMSStore,
@@ -31,6 +32,7 @@ const ControlBar = () => {
       >
         {isLocalVideoEnabled ? "Hide" : "Unhide"}
       </button>
+      <Time time={Date.now()} />
     </div>
   );
 };
